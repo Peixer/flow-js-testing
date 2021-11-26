@@ -13,12 +13,12 @@ Writing smart contracts can be complex. With the help of the Cadence language se
 Flow Javascript Testing Framework aims to reduce said complexity by providing a set of helpful methods allowing
 you easily:
 
-- [Start and stop new emulator instance](#emulator)
-- [Deploy contracts](#contracts)
-- [Create new accounts](#accounts)
-- [Send transactions](#send-transactions)
-- [Execute scripts](#execute-scripts)
-- [query balances and mint FLOW for specific account](#flow-token)
+- [Start and stop new emulator instance](emulator)
+- [Deploy contracts](contracts)
+- [Create new accounts](accounts)
+- [Send transactions](send-transactions)
+- [Execute scripts](execute-scripts)
+- [query balances and mint FLOW for specific account](flow-token)
 
 Framework will handle creating and managing the private keys you need to sign transactions, and try to automatically resolve import statements (provided, that necessary contracts deployed), so you can focus on writing Cadence code.
 
